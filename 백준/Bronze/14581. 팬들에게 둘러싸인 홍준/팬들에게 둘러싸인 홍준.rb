@@ -1,0 +1,1 @@
+puts ":fan::fan::fan:",":fan::#{gets.chomp}::fan:",":fan::fan::fan:"

@@ -1,0 +1,1 @@
+puts 'a'*gets.to_i

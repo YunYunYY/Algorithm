@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 5월 19일 13:39:25
+2026년 04월 25일 21:21:16
 
 ### 문제 설명
 
@@ -22,7 +22,7 @@
 
 <p>Given a list of all the scores, your job is to determine the score required for bronze level and how many participants achieved this score.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/dd38e9f0-73fe-4763-8841-6642a0890f2e/-/preview/" style="width: 394px; height: 150px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 394px; height: 150px;"></p>
 
 ### 입력 
 

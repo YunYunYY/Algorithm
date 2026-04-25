@@ -8,11 +8,11 @@
 
 ### 분류
 
-브루트포스 알고리즘, 구현, 수학, 시뮬레이션
+수학, 구현, 브루트포스 알고리즘, 시뮬레이션
 
 ### 제출 일자
 
-2025년 5월 23일 01:58:35
+2026년 04월 25일 21:21:16
 
 ### 문제 설명
 
@@ -20,7 +20,7 @@
 
 <p>As her first task, she made a rectangular box of size 2 × n, which contains two parallel rails and a rectangular bar on each of them. The short bar has size 1 × a, and the long one has size 1 × b. The long bar has a stopper at each end, and the short one is always between these two stoppers.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/fd4de1f0-e5cd-4093-85f8-9d1673a3bbe0/-/preview/" style="width: 424px; height: 105px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 424px; height: 105px;"></p>
 
 <p>The bars can be moved along the rails, one bar at a time, as long as the short bar is between the stoppers. So, on each move Amelia selects one of the bars and moves it, while the other one stays in place.</p>
 

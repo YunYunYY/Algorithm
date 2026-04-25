@@ -1,14 +1,12 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.*;
+import java.math.*;
 
 public class Main {
-
-	public static void main(String[] args) throws IOException{
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		int a = Integer.parseInt(bf.readLine());
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
 		for(int i=0;i<a;i++)
 			System.out.println("Hello World, Judge "+(i+1)+"!");
 	}
-	
 }

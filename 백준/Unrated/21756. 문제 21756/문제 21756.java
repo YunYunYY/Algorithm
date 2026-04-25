@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = 0;
+		while(true) {
+			if(a<Math.pow(2, b+1))break;
+			b++;
+		}
+		System.out.println((int)Math.pow(2, b));
+	}
+
+}
