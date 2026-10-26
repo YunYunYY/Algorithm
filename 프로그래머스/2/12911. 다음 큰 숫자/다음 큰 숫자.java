@@ -11,8 +11,8 @@ class Solution {
     static int count(int a){
         int cnt = 0;
         while(a>0){
-            a&=a-1;
-            cnt++;
+            cnt += a%2;
+            a/=2;
         }
         return cnt;
     }
