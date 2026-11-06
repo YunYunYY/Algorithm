@@ -1,7 +1,6 @@
 class Solution {
     static boolean[] aa = new boolean[8];
     public int solution(int k, int[][] dd) {
-        int answer = -1;
         aa=new boolean[dd.length];
         return aaa(0,k,dd);
     }
