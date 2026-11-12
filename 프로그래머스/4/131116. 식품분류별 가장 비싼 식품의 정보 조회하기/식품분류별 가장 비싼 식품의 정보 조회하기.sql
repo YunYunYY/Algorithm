@@ -1,0 +1,5 @@
+-- 코드를 입력하세요
+SELECT P.CATEGORY, MAX_PRICE, P.PRODUCT_NAME from FOOD_PRODUCT P join (SELECT CATEGORY, MAX(PRICE) as MAX_PRICE from FOOD_PRODUCT
+where CATEGORY in ( '과자', '국', '김치', '식용유') group by CATEGORY) J ON P.CATEGORY=J.CATEGORY
+where MAX_PRICE=P.PRICE
+ order by MAX_PRICE desc;
