@@ -1,4 +1,7 @@
-select I.FOOD_TYPE, I.REST_ID, I.REST_NAME, I.FAVORITES
-from REST_INFO I join (Select FOOD_TYPE, Max(FAVORITES) as FAVORITES from REST_INFO group by FOOD_TYPE) R on I.FOOD_TYPE=R.FOOD_TYPE
-where I.FAVORITES = R.FAVORITES and I.FOOD_TYPE=R.FOOD_TYPE
-order by FOOD_TYPE desc;
+select FOOD_TYPE, REST_ID,REST_NAME,FAVORITES
+from (select FOOD_TYPE, REST_ID,REST_NAME,FAVORITES,
+      rank() over(partition by FOOD_TYPE order by FAVORITES desc) as rnk
+     from REST_INFO
+     ) R
+where rnk = 1 order by FOOD_TYPE desc;
+      
