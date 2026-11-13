@@ -1,0 +1,3 @@
+-- 코드를 작성해주세요
+select count(ID)as FISH_COUNT, MONTH(time) as MONTH from FISH_INFO
+group by MONTH(time) order by month;
